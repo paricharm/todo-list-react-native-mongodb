@@ -1,0 +1,31 @@
+﻿# Node.js dependencies
+**/node_modules/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build output
+**/dist/
+**/coverage/
+**/.expo/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/build/
+mobile/android/app/build/
+mobile/ios/Pods/
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep release APK outside the Git repository
+submission/*.apk
+
+# Android debug signing key
+**/debug.keystore
