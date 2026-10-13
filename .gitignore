@@ -29,3 +29,6 @@ submission/*.apk
 
 # Android debug signing key
 **/debug.keystore
+
+# Android debug signing key
+**/debug.keystore
